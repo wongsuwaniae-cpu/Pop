@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%" aria-label="Plant Root System">
+  <defs>
+    <linearGradient id="rootSoil" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bbf7d0" stop-opacity="0.6"/>
+      <stop offset="35%" stop-color="#fef08a" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#fed7aa" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="tapRootGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#15803d"/>
+      <stop offset="25%" stop-color="#ca8a04"/>
+      <stop offset="100%" stop-color="#854d0e"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Soil line -->
+  <rect width="200" height="200" rx="16" fill="#f8fafc"/>
+  <rect y="65" width="200" height="135" fill="url(#rootSoil)" rx="0"/>
+  <path d="M 0 65 Q 50 62, 100 65 T 200 65" stroke="#15803d" stroke-width="3" fill="none"/>
+  
+  <!-- Above ground stem stub -->
+  <path d="M 94 65 L 94 30 Q 94 25, 100 25 Q 106 25, 106 30 L 106 65 Z" fill="#16a34a"/>
+  <!-- Leaf sprouts -->
+  <path d="M 94 40 C 70 35, 65 20, 75 15 C 85 20, 92 32, 94 40 Z" fill="#22c55e"/>
+  <path d="M 106 35 C 130 30, 135 15, 125 10 C 115 15, 108 28, 106 35 Z" fill="#16a34a"/>
+
+  <!-- Main Taproot -->
+  <path d="M 95 65 Q 96 110, 98 150 Q 99 175, 100 185 Q 101 175, 103 150 Q 105 110, 105 65 Z" fill="url(#tapRootGrad)"/>
+
+  <!-- Lateral Roots Left -->
+  <path d="M 96 85 Q 70 95, 45 115 Q 35 125, 30 135" stroke="#9a3412" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <path d="M 65 100 Q 55 120, 48 140" stroke="#b45309" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M 97 115 Q 80 130, 60 150" stroke="#9a3412" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M 98 140 Q 85 155, 75 170" stroke="#b45309" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Lateral Roots Right -->
+  <path d="M 104 80 Q 130 90, 155 105 Q 165 115, 172 130" stroke="#9a3412" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <path d="M 135 95 Q 145 115, 152 135" stroke="#b45309" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M 103 110 Q 125 125, 140 148" stroke="#9a3412" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M 102 135 Q 118 150, 125 168" stroke="#b45309" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Root hairs details -->
+  <path d="M 40 120 L 35 128 M 50 110 L 46 117 M 70 145 L 65 152 M 150 102 L 156 108 M 130 120 L 138 126" stroke="#ca8a04" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

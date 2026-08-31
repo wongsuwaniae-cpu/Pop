@@ -1,0 +1,8 @@
+{
+  "name": "Plant Structure Matching Game",
+  "description": "Educational matching game for students to learn plant anatomy via images and terminology in Thai and English.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

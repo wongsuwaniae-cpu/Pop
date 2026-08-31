@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%" aria-label="Fruit Anatomy and Pericarp">
+  <defs>
+    <linearGradient id="fruitExocarp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="60%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+    <linearGradient id="fruitFlesh" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="80%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="#f8fafc"/>
+
+  <!-- Stem & Leaf -->
+  <path d="M 100 45 C 95 20, 115 10, 125 5" stroke="#78350f" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M 105 32 C 125 20, 145 25, 150 40 C 135 45, 115 42, 105 32 Z" fill="#22c55e" stroke="#15803d" stroke-width="1.5"/>
+
+  <!-- Fruit Base / Whole Apple Silhouette Behind -->
+  <path d="M 100 45 C 50 45, 20 80, 25 130 C 30 170, 70 185, 100 180 C 130 185, 170 170, 175 130 C 180 80, 150 45, 100 45 Z" fill="url(#fruitExocarp)"/>
+
+  <!-- Sliced Cross-Section Inner Pericarp / Mesocarp -->
+  <path d="M 100 55 C 60 55, 38 85, 42 125 C 46 158, 78 172, 100 168 C 122 172, 154 158, 158 125 C 162 85, 140 55, 100 55 Z" fill="url(#fruitFlesh)"/>
+
+  <!-- Core (Endocarp) -->
+  <ellipse cx="100" cy="115" rx="20" ry="32" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+
+  <!-- Internal Seeds (2 seeds) -->
+  <!-- Left Seed -->
+  <path d="M 94 115 C 88 105, 88 125, 94 130 C 98 128, 98 118, 94 115 Z" fill="#451a03"/>
+  <!-- Right Seed -->
+  <path d="M 106 115 C 112 105, 112 125, 106 130 C 102 128, 102 118, 106 115 Z" fill="#451a03"/>
+</svg>

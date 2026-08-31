@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%" aria-label="Plant Seed and Embryo">
+  <defs>
+    <linearGradient id="seedCoat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="50%" stop-color="#92400e"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+    <linearGradient id="seedCotyledon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="60%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="#f8fafc"/>
+
+  <!-- Bean Seed Outer Silhouette (Testa / Seed Coat) -->
+  <path d="M 60 40 C 130 15, 175 60, 165 130 C 155 180, 105 185, 65 160 C 25 135, 20 60, 60 40 Z" fill="url(#seedCoat)" stroke="#451a03" stroke-width="2"/>
+
+  <!-- Cut-away Inside view (Cotyledon) -->
+  <path d="M 70 52 C 122 35, 158 70, 150 125 C 142 165, 105 170, 72 148 C 42 128, 38 68, 70 52 Z" fill="url(#seedCotyledon)"/>
+
+  <!-- Hilum / Micropyle mark on outer curve -->
+  <path d="M 46 95 C 44 110, 44 120, 48 130" stroke="#fef08a" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Internal Embryo (Plumule & Radicle) -->
+  <path d="M 62 82 C 60 90, 64 100, 70 108 C 76 114, 86 118, 92 110 C 96 104, 94 92, 85 86 C 78 80, 66 78, 62 82 Z" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <!-- Plumule leaves -->
+  <path d="M 66 84 C 64 74, 58 70, 52 72 C 54 78, 60 82, 66 84 Z" fill="#22c55e"/>
+  <path d="M 68 84 C 70 74, 76 70, 82 72 C 80 78, 74 82, 68 84 Z" fill="#16a34a"/>
+  <!-- Radicle (embryonic root) -->
+  <path d="M 88 112 C 96 122, 105 132, 114 135" stroke="#15803d" stroke-width="3" stroke-linecap="round" fill="none"/>
+</svg>
