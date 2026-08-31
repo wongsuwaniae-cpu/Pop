@@ -78,8 +78,8 @@ export const GameBoardScreen: React.FC<GameBoardScreenProps> = ({
   const [timeRemaining, setTimeRemaining] = useState<number>(initialTime);
 
   // References for safe cleanup and race condition prevention
-  const timerIntervalRef = useRef<NodeJS.Timeout | null>(null);
-  const hintTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const timerIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const hintTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const roundStartedAtRef = useRef<number>(Date.now());
   const isFinalizedRef = useRef<boolean>(false);
 
